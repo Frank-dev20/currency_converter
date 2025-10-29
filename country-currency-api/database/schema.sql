@@ -1,3 +1,23 @@
+-- =====================================================
+-- Country Data API - Database Schema
+-- =====================================================
+-- 
+-- NOTE: This file is for REFERENCE ONLY.
+-- 
+-- Tables are automatically created by database/migrations.js
+-- when the server starts. You do NOT need to run this file manually.
+-- 
+-- However, you CAN use this file to:
+-- - Manually set up a fresh database
+-- - Understand the database structure
+-- - Reference table definitions
+-- 
+-- To use this file manually:
+-- mysql -u root -p country_data_db < database/schema.sql
+-- 
+-- =====================================================
+
+
 -- Countries table
 CREATE TABLE IF NOT EXISTS countries (
   id INT AUTO_INCREMENT PRIMARY KEY,
